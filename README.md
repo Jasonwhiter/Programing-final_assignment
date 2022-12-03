@@ -14,6 +14,9 @@ https://drive.google.com/drive/folders/1RAXdJESHyZkk5jftNJNyCtpuHveskkgP?usp=sha
 ## プログラムに用いたTF-IDFの説明についての記事
 https://atmarkit.itmedia.co.jp/ait/articles/2112/23/news028.html
 
+## 注意書き
+このプログラムはヤフーニュースをスクレイピングしていますが、記事のhtmlの  タグ名が時間で変更されるため現在プログラムは動かなくなっております
+
 
 ## プログラムの動作フロー<br>
 1.新聞記事をOCRソフト(teserract)とPyocr(OCRへpythonでアクセスするためのライブラリ)を用いて新聞記事から画像に映るテキストを文字列して抽出
